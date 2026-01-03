@@ -18,12 +18,12 @@ docs/plans/
 .idea
 
 # Docker Compose Environment File
-.env
 
 dist
 
 # VSCode settings
-.vscode
 
 # Git worktrees
 .worktrees/
+config.bat
+node_modules

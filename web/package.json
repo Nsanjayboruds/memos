@@ -2,8 +2,8 @@
   "name": "memos",
   "private": true,
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "node init && vite",
+    "build": "node init && vite build",
     "release": "vite build --mode release --outDir=../server/router/frontend/dist --emptyOutDir",
     "lint": "tsc --noEmit --skipLibCheck && biome check src",
     "lint:fix": "biome check --write src",
